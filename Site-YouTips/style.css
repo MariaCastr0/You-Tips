@@ -128,6 +128,33 @@ p {
     transition: 1s opacity;
 }
 
+#home .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.75);
+}
+
+
+#home h1{
+    color: #fff;
+    font-size: 7vw;
+    line-height: 1.2em;
+}
+
+#home p{
+    color: rgba(250, 250, 250, 0,7);
+}
+
+#home .home-text{
+    z-index: 99;
+}
+
+
 /* ABOUT */
 
 
