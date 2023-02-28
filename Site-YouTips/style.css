@@ -85,6 +85,21 @@ p {
     color: #fff;
 }
 
+.navbar .navbar-nav .nav-link::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: transparent;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover::after{
+
+    width: 100%;
+    background: #fff;
+    color: #fff;
+}
 
 /* HOME */
 
@@ -96,7 +111,7 @@ p {
     position: relative;
 }
 
-#home .img{
+#home video{
     position: fixed;
     top: 50%;
     left: 50%;
