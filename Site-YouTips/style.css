@@ -204,6 +204,19 @@ p {
 
 /* ABOUT */
 
+#about{
+    position: relative;
+}
+
+#about h3{
+    font-size: 14px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+
+
+
+
 
 /* PROJECT */
 
