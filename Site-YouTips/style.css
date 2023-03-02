@@ -71,7 +71,7 @@ p {
     font-weight: normal;
     letter-spacing: 0.5px;
     padding: 2px 27px;
-    background: brown;
+    background: rgb(158, 57, 32);
     border-radius: 1px;
     transition: transform 0.3s;
     transform-origin: 50% 0;
@@ -277,6 +277,32 @@ p {
 
 
 /* TEAM */
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+/* Center slide text vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .swiper-slide .Text h3{
+    font-weight: 200;
+  }
+
+  .swiper-slide .Text h3 span{
+    font-weight: 500;
+  }
 
 
 /* CONTACT */
