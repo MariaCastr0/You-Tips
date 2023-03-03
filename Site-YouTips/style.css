@@ -278,12 +278,12 @@ p {
 
 /* TEAM */
 
-.swiper-container {
+#team .swiper-container {
     width: 100%;
     height: 100%;
   }
 
-.swiper-slide {
+#team .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -296,18 +296,39 @@ p {
     text-align: center;
   }
 
-  .swiper-slide .Text h3{
+#team .swiper-slide .Text h3{
     font-weight: 200;
   }
 
-  .swiper-slide .Text h3 span{
+#team .swiper-slide .Text h3 span{
     font-weight: 500;
   }
 
 
 /* CONTACT */
 
-#contact
+#contact {
+    background: url(../img/contact.png) 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
 
+#contact .form-control{
+    border: none;
+    box-shadow: none;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 9px;
+}
+
+#contact .form-control:focus {
+    border-color: #d9d9d9;
+}
+
+#contact input{
+    height: 48px;
+    line-height: 40px;
+}
 
 /* FOOTER */
