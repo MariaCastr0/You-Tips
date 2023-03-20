@@ -103,7 +103,8 @@ p {
 /* GENERAL */
 
 
-#about, #project, #team, #contact, footer {
+#about, #project,
+#team, #contact, footer {
     background: #ffffff;
 }
 
