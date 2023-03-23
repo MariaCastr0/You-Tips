@@ -101,6 +101,14 @@ p {
 
 /* GENERAL */
 
+.bg{
+    background: transparent;
+    transition: 0.2 ease;
+}
+
+.bg.scrolled{
+    background: rgb(158, 57, 32);
+}
 
 #about, #project,
 #team, #contact, footer {
@@ -361,7 +369,7 @@ body{
 /* CONTACT */
 
 #contact {
-    background: url(../img/contact.png) 50% 0 repeat-y fixed;
+    background: url(../images/contact.png) 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     position: relative;

@@ -17,7 +17,8 @@
 <body>
 
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light container py-3 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light py-3 fixed-top bg">
+      <div class="container">
         <a class="navbar-brand" href="#">YouTips</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars text-light" aria-hidden="true"></i>
@@ -39,6 +40,7 @@
               </li>
           </ul>
         </div>
+      </div>
       </nav>
 </header>
 
@@ -74,6 +76,8 @@
     <div class="row py-5 my-5">
 
       <div class="about-text text-center py-5 col-md-10 col-sm-12 mx-auto">
+        <br>
+        <br>
         <h3 class="pb-3">Introducing Scalla</h3>
         <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus atque impedit, dolor molestias aperiam quam ipsum iusto.</h1>
       </div>
@@ -85,6 +89,21 @@
 </section>
 
 <section id="project" class="pb-5">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+        <div class="sec-heading text-center">
+          <br>
+          <br>
+          <h6>Mais Indicações?</h6>
+          <br>
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="container">
 
@@ -165,7 +184,12 @@
     <div class="row">
       <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
         <div class="sec-heading text-center">
+          <br>
+          <br>
+          <br>
           <h6>Team Member</h6>
+          <br>
+          <br>
         </div>
       </div>
     </div>
@@ -415,6 +439,105 @@
   
 
 </section>
+<br>
+
+<section id="contact" class="h-100 py-5">
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+        <div class="sec-heading text-center">
+          <br>
+          <br>
+          <h6>Mais Indicações?</h6>
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-7 col-md-10 col-11 mx-auto pb-5">
+
+      <form>
+
+          <div class="form-row">
+
+              <div class="form-group col-md-6">
+                  <input type="text" name="" class="form-control" placeholder="Nome">
+              </div>
+
+              <div class="form-group col-md-6">
+                  <input type="email" name="" class="form-control" placeholder="E-mail">
+              </div>
+          </div>
+
+              <div class="form-group">
+                  <input type="text" name="" class="form-control" placeholder="Assunto">
+              </div>
+
+              <div class="form-group">
+                  <textarea class="form-control" placeholder="Mensagem" rows="5"></textarea>
+              </div>
+
+          
+
+      </form>
+
+      <ul class="section-btn text-center">
+          <a href="#"><span data-hover="Enviar Mensagem">Enviar Mensagem</span></a>
+      </ul>
+
+
+      </div>
+
+  </div>
+
+
+
+</section>
+
+
+<footer class="py-5">
+  <div class="container py-5">
+    <div class="row">
+
+      <div class="col-md-5 col-sm-6">
+        <h2>Digital Studio</h2>
+        <p>392875 fnjino  gfjung onnfiejenoc <br> sdnfnen ijfjfisf nffjk <br> sjfnwon wknriwor.</p>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="footer-info">
+          <h2>Keep in touch</h2>
+          <p><a href="#">010-010-0101</a></p>
+          <p><a href="#">info@company.com</a></p>
+          <p><a href="#">Our Location</a></p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-12">
+          <h2>About Us</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <ul class="social-icon list-unstyled d-flex">
+            <li><a href="#"><i class="fa fa-twitter text-dark px-1" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook text-dark px-1" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram text-dark px-1" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin text-dark px-1" aria-hidden="true"></i></a></li>
+          </ul>
+      </div>
+
+      <div class="col-md-12 col-12">
+        <div class="copyright-text">
+          <p>Copyright © YouTips Site | Inspiração: canal Tech2 etc</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
 
 
 
@@ -426,6 +549,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+<script>
+  $(window).scroll(function(){
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 50)
+  })
+</script>
 
 <script>
   $('.team-slider').owlCarousel({
