@@ -111,7 +111,7 @@ p {
 }
 
 #about, #materias,
-#canais, #contact, footer {
+#canais, #sugest, footer {
     background: #ffffff;
 }
 
@@ -366,16 +366,16 @@ body{
     }
 }
 
-/* CONTACT */
+/* SUGEST - SUGESTÕES */
 
-#contact {
+#sugest {
     background: url(../images/contact.png) 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     position: relative;
 }
 
-#contact .form-control{
+#sugest .form-control{
     border: none;
     box-shadow: none;
     font-size: 18px;
@@ -383,11 +383,11 @@ body{
     margin-bottom: 9px;
 }
 
-#contact .form-control:focus {
+#sugest .form-control:focus {
     border-color: #d9d9d9;
 }
 
-#contact input{
+#sugest input{
     height: 48px;
     line-height: 40px;
 }
