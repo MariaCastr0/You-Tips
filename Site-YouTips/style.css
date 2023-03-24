@@ -10,7 +10,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* TYPOGRAPHY */
+/* TYPOGRAFIA */
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: 300;
@@ -49,7 +49,7 @@ p {
 }
 
 
-/* BUTTONS */
+/* BOTÕES */
 
 .section-btn{
     margin: 32px 0 0 0;
@@ -99,7 +99,7 @@ p {
 }
 
 
-/* GENERAL */
+/* GERAL */
 
 .bg{
     background: transparent;
@@ -110,7 +110,7 @@ p {
     background: rgb(158, 57, 32);
 }
 
-#about, #project,
+#about, #materias,
 #team, #contact, footer {
     background: #ffffff;
 }
@@ -226,9 +226,9 @@ p {
 
 
 
-/* PROJECT */
+/* MATERIAS */
 
-#project .project-item{
+#materias .materias-item{
     position: relative;
     overflow: hidden;
     margin-bottom: 25px;
@@ -239,7 +239,7 @@ p {
 
 
 
-#project .project-item .project-overlay{
+#materias .materias-item .materias-overlay{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -253,21 +253,21 @@ p {
 }
 
 
-#project .project-item:hover .project-overlay {
+#materias .materias-item:hover .materias-overlay {
     opacity: 1;
 }
 
-#project .project-item .project-overlay .project-info{
+#materias .materias-item .materias-overlay .materias-info{
     padding: 12em 0;
 }
 
-.project-info h1{
+.materias-info h1{
     color: #fff;
     margin: 0;
 }
 
 
-.project-info h3{
+.materias-info h3{
     color: #d9d9d9;
     margin-top: 0;
     font-size: 14px;
@@ -275,11 +275,11 @@ p {
 }
 
 
-.project-item img{
+.materias-item img{
     transition: all ease-in-out 0.4s;
 }
 
-.project-item:hover img{
+.materias-item:hover img{
     transform: scale(1.1);
 }
 
