@@ -110,7 +110,7 @@ p {
     background: rgb(158, 57, 32);
 }
 
-#about, #materias,
+#sobre, #materias,
 #canais, #sugest, footer {
     background: #ffffff;
 }
@@ -210,13 +210,13 @@ p {
 }
 
 
-/* ABOUT */
+/* SOBRE */
 
-#about{
+#sobre{
     position: relative;
 }
 
-#about h3{
+#sobre h3{
     font-size: 14px;
     letter-spacing: 12px;
     text-transform: uppercase;
