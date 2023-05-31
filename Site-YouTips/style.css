@@ -163,6 +163,30 @@ p {
     background-color: rgb(158, 57, 32);
     height: 79px; 
  }
+
+ /* Configurações Matérias */
+
+
+ .navbar-logo-topo {
+    padding-top: 20px; 
+}
+   
+
+.text-center-vertical {
+    display: flex;
+    align-items: center;
+}
+      
+    
+ .margin-top-20 {
+    margin-top: 30px; 
+}
+
+.margin-horizontal-20 {
+    margin-left: 20px; /* Defina a quantidade de espaço lateral esquerdo desejada aqui */
+    margin-right: 20px; /* Defina a quantidade de espaço lateral direito desejada aqui */
+}
+       
  
 
 /* HOME */
